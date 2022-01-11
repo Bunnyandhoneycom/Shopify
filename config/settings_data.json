@@ -5,10 +5,11 @@
       "header": {
         "type": "header",
         "settings": {
-          "background_color": "#ffffff",
+          "background_color": "#4A5568",
           "header_text": "AirThemeOne",
-          "logo_max_width": 100,
-          "logo_font_size": 20,
+          "logo": "shopify:\/\/shop_images\/Mainbanner_willkommen.jpg",
+          "logo_max_width": 185,
+          "logo_font_size": 38,
           "sticky_header": true,
           "main_linklist": "main-menu",
           "drawer_menu": "",
@@ -19,6 +20,43 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "07074b8d-7dc0-4feb-a0bb-a2241812af0c": {
+            "type": "link_list",
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer",
+              "column_width_mobile": "w-full",
+              "column_width_tablet": "md:w-1\/3",
+              "column_width_desktop": "lg:w-1\/3"
+            }
+          },
+          "bb812ff2-cab6-462a-b97a-f436bd306d40": {
+            "type": "text",
+            "settings": {
+              "title": "Talk about your business",
+              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>",
+              "column_width_mobile": "w-full",
+              "column_width_tablet": "md:w-1\/3",
+              "column_width_desktop": "lg:w-1\/3"
+            }
+          },
+          "d39f8f6b-c203-48f2-9314-5a929a12f2c4": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "content": "",
+              "column_width_mobile": "w-full",
+              "column_width_tablet": "md:w-1\/3",
+              "column_width_desktop": "lg:w-1\/3"
+            }
+          }
+        },
+        "block_order": [
+          "07074b8d-7dc0-4feb-a0bb-a2241812af0c",
+          "bb812ff2-cab6-462a-b97a-f436bd306d40",
+          "d39f8f6b-c203-48f2-9314-5a929a12f2c4"
+        ],
         "settings": {
           "header_size": "text-xl sm:text-2xl",
           "show_payment_icons": true,
@@ -105,11 +143,157 @@
           "hide_add_to_cart": false,
           "show_view_all": false
         }
+      },
+      "164190220991d27e88": {
+        "type": "gallery",
+        "blocks": {
+          "164190220991d27e88-0": {
+            "type": "image",
+            "settings": {
+              "column_width_mobile": "w-full",
+              "column_width_tablet": "md:w-1\/3",
+              "column_width_desktop": "lg:w-1\/3",
+              "image_fit": "object-cover",
+              "image_alignment": "object-center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "164190220991d27e88-1": {
+            "type": "image",
+            "settings": {
+              "column_width_mobile": "w-full",
+              "column_width_tablet": "md:w-1\/3",
+              "column_width_desktop": "lg:w-1\/3",
+              "image_fit": "object-cover",
+              "image_alignment": "object-center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "164190220991d27e88-2": {
+            "type": "image",
+            "settings": {
+              "column_width_mobile": "w-full",
+              "column_width_tablet": "md:w-1\/3",
+              "column_width_desktop": "lg:w-1\/3",
+              "image_fit": "object-cover",
+              "image_alignment": "object-center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "164190220991d27e88-0",
+          "164190220991d27e88-1",
+          "164190220991d27e88-2"
+        ],
+        "settings": {
+          "section_height": "h-48",
+          "padding": ""
+        }
+      },
+      "1641902221569cb16a": {
+        "type": "icon-bar",
+        "blocks": {
+          "37686a7b-e026-4c50-bc08-971c64041bb2": {
+            "type": "text",
+            "settings": {
+              "icon": "",
+              "title": "",
+              "text": "",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "37686a7b-e026-4c50-bc08-971c64041bb2"
+        ],
+        "settings": {
+          "alignment": "center",
+          "position": "row",
+          "size": "h-12 w-12"
+        }
+      },
+      "1641902225182965a4": {
+        "type": "logo-list",
+        "blocks": {
+          "1641902225182965a4-0": {
+            "type": "text_block",
+            "settings": {
+              "link": ""
+            }
+          },
+          "1641902225182965a4-1": {
+            "type": "text_block",
+            "settings": {
+              "link": ""
+            }
+          },
+          "1641902225182965a4-2": {
+            "type": "text_block",
+            "settings": {
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1641902225182965a4-0",
+          "1641902225182965a4-1",
+          "1641902225182965a4-2"
+        ],
+        "settings": {
+          "title": "Partners",
+          "align_text": "left",
+          "space_between": "mb-4 px-2"
+        }
+      },
+      "164190223985a20008": {
+        "type": "image",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Pinterest-Banner.jpg",
+          "link": "",
+          "disable_lazyload": false
+        }
+      },
+      "16419022526e9b38fc": {
+        "type": "divider",
+        "settings": {
+          "divider_spacing": 14,
+          "divider_border": false
+        }
+      },
+      "164190226249670f92": {
+        "type": "image-with-text",
+        "settings": {
+          "alignment": "left",
+          "title": "Image with text",
+          "text": "<p>TODO: (This text has to be changed) Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "16419023943e3ef9e7": {
+        "type": "newsletter",
+        "settings": {
+          "title": "Subscribe to our newsletter",
+          "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
+          "section_padding": "py-12",
+          "background": "#EDF2F7"
+        }
       }
     },
     "content_for_index": [
       "16419021180da173f0",
-      "164190213901b745b3"
+      "16419022526e9b38fc",
+      "164190213901b745b3",
+      "164190220991d27e88",
+      "1641902221569cb16a",
+      "1641902225182965a4",
+      "164190223985a20008",
+      "164190226249670f92",
+      "16419023943e3ef9e7"
     ]
   }
 }
