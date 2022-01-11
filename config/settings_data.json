@@ -1,11 +1,14 @@
 {
   "current": {
+    "button_primary": "#e22120",
+    "button_primary_hover": "#A0AEC0",
     "color_image_overlay_background": "gray-100",
+    "text_font": "helvetica_n3",
     "sections": {
       "header": {
         "type": "header",
         "settings": {
-          "background_color": "#4A5568",
+          "background_color": "#4a5568",
           "header_text": "AirThemeOne",
           "logo": "shopify:\/\/shop_images\/Mainbanner_willkommen.jpg",
           "logo_max_width": 185,
@@ -60,9 +63,9 @@
         "settings": {
           "header_size": "text-xl sm:text-2xl",
           "show_payment_icons": true,
-          "background_color": "#EDF2F7",
-          "header_color": "#1A202C",
-          "paragraph_color": "#4A5568"
+          "background_color": "#edf2f7",
+          "header_color": "#1a202c",
+          "paragraph_color": "#4a5568"
         }
       },
       "collection-template": {
@@ -280,7 +283,15 @@
           "title": "Subscribe to our newsletter",
           "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>",
           "section_padding": "py-12",
-          "background": "#EDF2F7"
+          "background": "#edf2f7"
+        }
+      },
+      "page-template": {
+        "type": "page-template",
+        "settings": {
+          "header_alignment": "text-center",
+          "width": "max-w-3xl",
+          "show_title": true
         }
       }
     },
