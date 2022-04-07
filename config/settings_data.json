@@ -2,6 +2,8 @@
   "current": {
     "button_primary": "#e22120",
     "button_primary_hover": "#A0AEC0",
+    "font_color_color_light": "#1A202C",
+    "font_color_color_dark": "#1A202C",
     "color_image_overlay_background": "gray-100",
     "text_font": "helvetica_n3",
     "sections": {
